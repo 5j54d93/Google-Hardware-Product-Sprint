@@ -1,6 +1,6 @@
 from temperature_humidity.SHT31D import SHT31D
+from datetime import datetime
 import RPi.GPIO as GPIO
-import datetime
 import time
 
 class Bump:
