@@ -21,7 +21,7 @@
   - [Adafruit's CircuitPython library bundle](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruits-circuitpython-library-bundle)
   - [adafruit_sgp30.mpy](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_sgp30mpy)
   - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_bus_device)
-- [Using the SGP30 with CircuitPython and the Adafruit library](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#using-the-sgp30-with-circuitpython-and-the-adafruit-library)
+- [Using SGP30 with CircuitPython and Adafruit library](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#using-the-sgp30-with-circuitpython-and-the-adafruit-library)
   - [Docs](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#docs)
 - [Single Page Reference](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#single-page-reference)
 
@@ -92,7 +92,7 @@ pip3 install adafruit-circuitpython-sgp30
 pip3 install adafruit-circuitpython-busdevice
 ```
 
-## [Using the SGP30 with CircuitPython and the Adafruit library](https://github.com/adafruit/Adafruit_CircuitPython_SGP30/blob/main/examples/sgp30_simpletest.py)
+## [Using SGP30 with CircuitPython and Adafruit library](https://github.com/adafruit/Adafruit_CircuitPython_SGP30/blob/main/examples/sgp30_simpletest.py)
 
 ```python
 import time
