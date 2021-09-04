@@ -15,11 +15,11 @@ class Buzzer:
         self.last_noise_min   = 0
     
     def last_noise_time(self):
-        if self.last_noise_hour == 0 and self.last_noise_min == 0 : return "Haven't noised yet."
+        if self.last_noise_hour == 0 and self.last_noise_min == 0 : return "未鳴笛過"
         return str(self.last_noise_month) + '/' + str(self.last_noise_day) + ' ' + str(self.last_noise_hour).zfill(2) + ':' + str(self.last_noise_min).zfill(2)
     
     def upon_last_noise_time(self):
-        if self.last_noise_hour == 0 and self.last_noise_min == 0 : return "Haven't noised yet."
+        if self.last_noise_hour == 0 and self.last_noise_min == 0 : return "未鳴笛過"
         return datetime.now().hour * 60 + datetime.now().minute - self.last_nois_hour * 60 - self.last_nois_min
     
     def update_last_noise_time(self):
