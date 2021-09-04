@@ -65,7 +65,7 @@ sudo python3 Demeter.py
 
 ## Open the Website
 
-You could open it on computer, iPhone, iPad ...,  your device has a browser.
+You could open it on computer, iPhone, iPad ......, as long as your device has a browser.
 
 - **URL：`http://[your ip]`**
 - use `ifconfig` to check your ip
