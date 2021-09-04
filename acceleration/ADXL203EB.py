@@ -54,7 +54,7 @@ class ADXL203EB:
         else : return self.remap_range(self.last_read_y, 0, 65535, 0, 100)
 	
     def stable_or_sway(self):
-        x = self.X
-        y = self.Y
+        x = self.X()
+        y = self.Y()
         if math.sqrt(x * x + y * y) > 50 : return "It's swaying！"
         else : return "It's stable now～"
