@@ -9,7 +9,16 @@
 
 ## Overview
 
-- 
+- [APDS9960 wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/tree/main/light#apds9960-wired-to-raspberry-pi-with-i2c)
+  - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/tree/main/light#raspberry-pi-gpio-pin)
+  - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/tree/main/light#check-the-i2c-devices)
+- [Install Libraries](https://github.com/5j54d93/Google-HPS/tree/main/light#install-libraries)
+  - [adafruit_apds9960](https://github.com/5j54d93/Google-HPS/tree/main/light#adafruit_apds9960)
+  - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/tree/main/light#adafruit_bus_device)
+  - [adafruit_register](https://github.com/5j54d93/Google-HPS/tree/main/light#adafruit_register)
+- [Using APDS9960 with Adafruit library](https://github.com/5j54d93/Google-HPS/tree/main/light#using-apds9960-with-adafruit-library)
+  - [Docs](https://github.com/5j54d93/Google-HPS/tree/main/light#docs)
+- [Single Page Reference](https://github.com/5j54d93/Google-HPS/tree/main/light#single-page-reference)
 
 ## [APDS9960 wired to Raspberry Pi with I2C](https://www.circuito.io/app?components=9443,12787,200000)
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/light/photo/APDS9960%20wired%20to%20Raspberry%20Pi%20with%20I2C.png.png" width='45%' height='45%'/>
@@ -103,7 +112,7 @@ while True:
 - [`apds.color_data_ready`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=color_data_ready#adafruit_apds9960.apds9960.APDS9960.color_data_ready)
 - [`apds.color_data`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=color_data#adafruit_apds9960.apds9960.APDS9960.color_data)
 - [`calculate_color_temperature()`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=calculate_color_temperature#adafruit_apds9960.colorutility.calculate_color_temperature)
--[`calculate_lux()`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=calculate_lux#adafruit_apds9960.colorutility.calculate_lux)
+- [`calculate_lux()`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=calculate_lux#adafruit_apds9960.colorutility.calculate_lux)
 
 ## Single Page Reference
 
