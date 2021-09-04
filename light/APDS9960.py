@@ -6,20 +6,20 @@ import time
 class APDS9960:
     def __init__(self):
         i2c = board.I2C()
-        self.apds9960 = APDS9960(i2c)
-        self.apds9960.enable_color = True
+        self.apds = APDS9960(i2c)
+        self.apds.enable_color = True
     
     def light_value(self):
-        while not self.apds9960.color_data_ready : time.sleep(0.005)
-        r,g,b,c = self.apds9960.color_data
+        while not self.apds.color_data_ready : time.sleep(0.005)
+        r,g,b,c = self.apds.color_data
         return colorutility.calculate_lux(r, g, b)
 
     def light_value_percentage(self):
         return self.light_value / 34196.163 * 100
     
     def light_color_temperature(self):
-        while not self.apds9960.color_data_ready : time.sleep(0.005)
-        r,g,b,c = self.apds9960.color_data
+        while not self.apds.color_data_ready : time.sleep(0.005)
+        r,g,b,c = self.apds.color_data
         return colorutility.calculate_color_temperature(r, g, b)
     
     def bright_or_dark(self):
