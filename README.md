@@ -34,9 +34,11 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 ## Wiring to Raspberry Pi
 
 - [**［I2C］Air Quality**：SGP30](https://github.com/5j54d93/Google-HPS/tree/main/air_quality#sgp30-wired-to-raspberry-pi-with-i2c)
-- **［SPI］Acceleration**：ADXL203EB
 - **［I2C］Light**：APDS9960
 - **［I2C］Temperature & Humidity**：SHT31-D
+- **［SPI］Acceleration**：ADXL203EB
+- **［GPIO］Watering**：Bump
+- **［GPIO］Noise**：Buzzer
 
 ### Check the I2C devices：
 
