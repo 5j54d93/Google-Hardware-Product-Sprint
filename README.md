@@ -42,7 +42,7 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 - **APDS9960**：`0x39`
 - **SHT31-D**：`0x44`
 
-```
+```shell
 pi@raspberrypi:~ $ sudo i2cdetect -y 1
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -59,7 +59,7 @@ pi@raspberrypi:~ $ sudo i2cdetect -y 1
 
 - **Raspberry Pi** -> **MCP3008** -> **ADXL203EB**
 
-```
+```shell
 pi@raspberrypi:~ $ ls -l /dev/spidev*
 crw-rw---- 1 root spi 153, 0 Aug 28 13:17 /dev/spidev0.0
 crw-rw---- 1 root spi 153, 1 Aug 28 13:17 /dev/spidev0.1
@@ -67,13 +67,13 @@ crw-rw---- 1 root spi 153, 1 Aug 28 13:17 /dev/spidev0.1
 
 ## Install Libraries on Raspberry Pi
 
-```
+```shell
 sudo pip3 install -r requirements.txt
 ```
 
 ## Run Web Server on Raspberry Pi
 
-```
+```shell
 sudo python3 Demeter.py
 ```
 
