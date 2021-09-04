@@ -5,7 +5,7 @@ from bump.Bump import Bump
 from buzzer.Buzzer import Buzzer
 from light.APDS9960 import APDS
 from temperature_humidity.SHT31D import SHT31D
-import datetime
+from datetime import datetime
 
 app = Flask("Demeter")
 acceleration = ADXL203EB()
@@ -43,16 +43,15 @@ def home():
                            dry_or_wet_plant = temperature_humidity.dry_or_wet_plant(),
                            dry_or_wet_people = temperature_humidity.dry_or_wet_people(),
                            humidity = round(temperature_humidity.humidity(),2),
-                           year = datetime.datetime.now().year,
-                           month = datetime.datetime.now().month,
-                           day = datetime.datetime.now().day,
-                           hour = str(datetime.datetime.now().hour).zfill(2),
-                           min = str(datetime.datetime.now().minute).zfill(2),
+                           year = datetime.now().year,
+                           month = datetime.now().month,
+                           day = datetime.now().day,
+                           hour = str(datetime.now().hour).zfill(2),
+                           min = str(datetime.now().minute).zfill(2),
                            last_watering_time = bump.last_watering_time(),
                            upon_last_watering_time = bump.upon_last_watering_time(),
                            last_noise_time = buzzer.last_noise_time(),
                            upon_last_noise_time = buzzer.upon_last_noise_time(),
                           )
 
-if __name__ == '__main__':
-   app.run(debug=True, port=80, host='0.0.0.0')
+if __name__ == '__main__' : app.run(debug=True, port=80, host='0.0.0.0')
