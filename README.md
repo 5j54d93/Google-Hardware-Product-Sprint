@@ -4,7 +4,9 @@
 ![GitHub followers](https://img.shields.io/github/followers/5j54d93)
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Google-HPS)
 
-Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there's a bird aproaching, our buzzer will noise to scare them away！We also have a dashboard（web）to view all related data.
+Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are birds aproaching, buzzer will noise to scare them away！We also have a dashboard（web）to view all related data which could auto switching between Day theme and Nithgt theme！
+
+<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Product.png" width='100%' height='100%'/>
 
 - **Contibuters：[Ricky](https://github.com/5j54d93)、[Darren](https://github.com/darrenyaoyao)、[Zona](https://github.com/zona8815)、[Amy](https://github.com/AmyCHANGY)、[Andrew](https://github.com/TingWeiWong)**
 - **Origin repository**：Improving from [here](https://github.com/darrenyaoyao/GoogleHPS)！
