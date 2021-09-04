@@ -18,6 +18,17 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 - **Mentor**：Weihsuan
 - **Team**：2
 
+## Overview
+
+- [Wiring to Raspberry Pi](https://github.com/5j54d93/Google-HPS#wiring-to-raspberry-pi)
+  - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
+  - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#check-the-spi-devices)
+- [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-HPS#install-libraries-on-raspberry-pi)
+- [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#run-web-server-on-raspberry-pi)
+- [Open the Website](https://github.com/5j54d93/Google-HPS#open-the-website)
+- [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
+- [License]()
+
 ## Wiring to Raspberry Pi
 
 - [**［I2C］Air Quality**：SGP30](https://github.com/5j54d93/Google-HPS/tree/main/air_quality#sgp30-wired-to-raspberry-pi-with-i2c)
@@ -81,3 +92,7 @@ You could open it on computer, iPhone, iPad ......, as long as your device has a
 ## Block Diagram
 
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Block%20Diagram.png" width='100%' height='100%'/>
+
+## License
+
+This package is licensed under MIT license. See [LICENSE](https://github.com/5j54d93/Google-HPS/blob/main/LICENSE) for details.
