@@ -108,9 +108,9 @@ while True:
 ### Docs
 - [`busio.I2C()`](https://circuitpython.readthedocs.io/en/latest/shared-bindings/busio/#busio.I2C)
 - [`APDS9960()`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html)
-- [`apds.enable_color`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=enable_color#adafruit_apds9960.apds9960.APDS9960.enable_color)
-- [`apds.color_data_ready`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=color_data_ready#adafruit_apds9960.apds9960.APDS9960.color_data_ready)
-- [`apds.color_data`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=color_data#adafruit_apds9960.apds9960.APDS9960.color_data)
+- [`enable_color`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=enable_color#adafruit_apds9960.apds9960.APDS9960.enable_color)
+- [`color_data_ready`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=color_data_ready#adafruit_apds9960.apds9960.APDS9960.color_data_ready)
+- [`color_data`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=color_data#adafruit_apds9960.apds9960.APDS9960.color_data)
 - [`calculate_color_temperature()`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=calculate_color_temperature#adafruit_apds9960.colorutility.calculate_color_temperature)
 - [`calculate_lux()`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=calculate_lux#adafruit_apds9960.colorutility.calculate_lux)
 
