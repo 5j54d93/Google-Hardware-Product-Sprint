@@ -4,7 +4,6 @@
 [![CodeQL](https://github.com/5j54d93/Google-HPS/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/5j54d93/Google-HPS/actions/workflows/codeql-analysis.yml)
 ![GitHub contributors](https://img.shields.io/github/contributors/darrenyaoyao/GoogleHPS)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Google-HPS)
-![GitHub followers](https://img.shields.io/github/followers/5j54d93)
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Google-HPS)
 ![GitHub watchers](https://img.shields.io/github/watchers/5j54d93/Google-HPS)
 
