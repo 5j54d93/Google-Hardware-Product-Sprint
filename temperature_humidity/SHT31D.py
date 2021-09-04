@@ -9,7 +9,7 @@ class SHT31D:
         self.SHT31D = adafruit_sht31d.SHT31D(i2c, 0x44)
         self.readcount = 0
     
-    def heater_on(self, second)
+    def heater_on(self, second):
         self.SHT31D.heater = True
         time.sleep(second)
         self.SHT31D.heater = False
