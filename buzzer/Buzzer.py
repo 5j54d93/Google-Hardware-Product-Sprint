@@ -38,9 +38,9 @@ class Buzzer:
         b.ChangeFrequency(659)
         time.sleep(1)
         b.stop()
-        self.update_last_noise_time
+        self.update_last_noise_time()
     
     def auto_noising(self):
         if self.ADXL203EB.stable_or_sway() == "It's swaying！" :
-            self.noising
-            self.update_last_noise_time
+            self.noising()
+            self.update_last_noise_time()
