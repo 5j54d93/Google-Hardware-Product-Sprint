@@ -13,7 +13,7 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 
 - **Contibuters：[Ricky](https://github.com/5j54d93)、[Darren](https://github.com/darrenyaoyao)、[Zona](https://github.com/zona8815)、[Amy](https://github.com/AmyCHANGY)、[Andrew](https://github.com/TingWeiWong)**
 - **Origin repository**：Improving from [here](https://github.com/darrenyaoyao/GoogleHPS)！
-- **PDF of our final project**：[here](https://www.linkedin.com/in/5j54d93/detail/treasury/position:1818345962/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAC6VbdQBQobxRd1rOO_UKJMpmq7spKspF2E%2C1635468225149)&parentEntityUrn=urn%3Ali%3Afsd_profilePosition%3A(ACoAAC6VbdQBQobxRd1rOO_UKJMpmq7spKspF2E%2C1818345962)&section=position%3A1818345962&treasuryCount=2)
+- **PDF of our project slides**：[here](https://www.linkedin.com/in/5j54d93/detail/treasury/position:1818345962/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAC6VbdQBQobxRd1rOO_UKJMpmq7spKspF2E%2C1635468225149)&parentEntityUrn=urn%3Ali%3Afsd_profilePosition%3A(ACoAAC6VbdQBQobxRd1rOO_UKJMpmq7spKspF2E%2C1818345962)&section=position%3A1818345962&treasuryCount=2)
 - **Project name**：Demeter
 - **Mentor**：Weihsuan
 - **Team**：2
