@@ -1,10 +1,10 @@
 # Google Hardware Product Sprint－2021 APAC TW HPS
 
-Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there's a bird aproaching, our buzzer will noise to scare them away！We also have a dashboard（web）to view all related data.
+![GitHub contributors](https://img.shields.io/github/contributors/darrenyaoyao/GoogleHPS)
+![GitHub followers](https://img.shields.io/github/followers/5j54d93)
+![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Google-HPS)
 
-<a href="https://github.com/darrenyaoyao/GoogleHPS/graphs/contributors" alt="Contributors"><img src="https://img.shields.io/github/contributors/badges/shields" /></a>
-<a href="https://circleci.com/gh/badges/shields/tree/master"><img src="https://img.shields.io/circleci/project/github/badges/shields/master" alt="build status"></a>
-<a href="https://twitter.com/5j_54d93?ref_src=twsrc%5Etfw"><img src="https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter" alt="follow on Twitter"></a>
+Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there's a bird aproaching, our buzzer will noise to scare them away！We also have a dashboard（web）to view all related data.
 
 - **Contibuters：[Ricky](https://github.com/5j54d93)、[Darren](https://github.com/darrenyaoyao)、[Zona](https://github.com/zona8815)、[Amy](https://github.com/AmyCHANGY)、[Andrew](https://github.com/TingWeiWong)**
 - **Origin repository**：Improving from [here](https://github.com/darrenyaoyao/GoogleHPS)！
@@ -14,12 +14,12 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there's a 
 
 ## Wiring to Raspberry Pi
 
-- [**［I2C］Air Quality**：SGP30](https://github.com/darrenyaoyao/GoogleHPS/tree/main/AirQuality#raspberry-pi-and-sgp30-wired-with-i2c)
+- [**［I2C］Air Quality**：SGP30]()
 - **［SPI］G-Sensor**：ADXL203EB
 - **［I2C］Light**：APDS9960
 - **［I2C］Temperature & Humidity**：SHT31-D
 
-### Check the I2C devices
+### Check the I2C devices：
 
 - **Air Quality**：`0x58`
 - **Light**：`0x39`
@@ -40,7 +40,7 @@ pi@raspberrypi:~ $ sudo i2cdetect -y 1
 
 ### Check the SPI devices
 
-- **Raspberry PI** to **MCP3008** to **ADXL203EB**
+- **Raspberry Pi** -> **MCP3008** -> **ADXL203EB**
 
 ```
 pi@raspberrypi:~ $ ls -l /dev/spidev*
@@ -57,7 +57,7 @@ sudo pip3 install -r requirements.txt
 ## Run Web Server
 
 ```
-sudo python3 SmartGardener.py
+sudo python3 Demeter.py
 ```
 
 ## Open the Website：http://[your ip]
@@ -67,17 +67,4 @@ sudo python3 SmartGardener.py
 
 ### Screenshot with Day theme and Nithgt theme（Automatic switching）
 
-<img src="https://github.com/darrenyaoyao/GoogleHPS/blob/main/Photos/web.png" width='100%' height='100%'/>
-
-## Buzzer
-
-Connect ground to Buzzier negative pin, Raspberry Pi pin 16 (GPIO 23) to Buzzier positive pin
-
-## Relay and Pump
-
-- Relay's VCC connect pin4(5v5)
-- Relay's GND connect pin6(GND)
-- Relay's IN connect pin18(GPIO24)
-- Relay's NO connect pin17(3v3)
-- Relay's COM connect Pump's red wire
-- Pump's black wire connect ground
+<img src="" width='100%' height='100%'/>
