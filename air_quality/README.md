@@ -16,7 +16,7 @@
 - [Single Page Reference](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#single-page-reference)
 
 ## SGP30 wired to Raspberry Pi with I2C
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/Raspberry%20Pi%20%26%20SGP30%20wired%20with%20I2C.png" width='45%' height='45%'/>
+<img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/SGP30%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/>
 
 |SGP30|Raspberry Pi|
 |:-:|:-:|
