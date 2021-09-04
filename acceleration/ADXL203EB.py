@@ -39,7 +39,7 @@ class ADXL203EB:
             return set_volume
         else : return self.remap_range(self.last_read_x, 0, 65535, 0, 100)
     
-	def Y(self):
+    def Y(self):
         trim_pot_changed = False
         trim_pot = self.chan1.value
         pot_adjust = abs(trim_pot - self.last_read_y)
@@ -53,7 +53,7 @@ class ADXL203EB:
             return set_volume
         else : return self.remap_range(self.last_read_y, 0, 65535, 0, 100)
 	
-	def stable_or_sway(self):
+    def stable_or_sway(self):
         x = self.X
         y = self.Y
         if math.sqrt(x * x + y * y) > 50 : return "It's swaying！"
