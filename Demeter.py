@@ -5,6 +5,7 @@ from bump.Bump import Bump
 from buzzer.Buzzer import Buzzer
 from light.APDS9960 import APDS
 from temperature_humidity.SHT31D import SHT31D
+import datetime
 
 app = Flask("Demeter")
 acceleration = ADXL203EB()
