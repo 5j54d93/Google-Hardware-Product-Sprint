@@ -1,7 +1,7 @@
 # Google Hardware Product Sprint－2021 APAC TW HPS
 
-![GitHub](https://img.shields.io/github/license/5j54d93/Google-HPS)
 [![CodeQL](https://github.com/5j54d93/Google-HPS/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/5j54d93/Google-HPS/actions/workflows/codeql-analysis.yml)
+![GitHub](https://img.shields.io/github/license/5j54d93/Google-HPS)
 ![GitHub contributors](https://img.shields.io/github/contributors/darrenyaoyao/GoogleHPS)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Google-HPS)
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Google-HPS)
