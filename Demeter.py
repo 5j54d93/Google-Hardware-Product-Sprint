@@ -33,7 +33,7 @@ def home():
                            acceleration_x = acceleration.X(),
                            acceleration_y = acceleration.Y(),
                            stable_or_sway = acceleration.stable_or_sway(),
-                           bright_ot_dark = light.bright_or_dark(),
+                           bright_or_dark = light.bright_or_dark(),
                            light_value = round(light.light_value(),2),
                            light_value_percentage = round(light.light_value_percentage(),2),
                            light_color_temperature = round(light.light_color_temperature(),2),
