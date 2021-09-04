@@ -1,5 +1,5 @@
 # [Air quality sensor：SGP30 TVOC/eCO2 Gas Sensor](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-sgp30-gas-tvoc-eco2-mox-sensor.pdf)
-<img src="https://github.com/darrenyaoyao/GoogleHPS/blob/main/AirQuality/Photos/SGP30.png" width='78%' height='78%'/>
+<img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/SGP30.png" width='78%' height='78%'/>
 
 ## SGP30 wired to Raspberry Pi with I2C
 <img src="https://github.com/darrenyaoyao/GoogleHPS/blob/main/AirQuality/Photos/Raspberry%20Pi%20%26%20SGP30%20wired%20with%20I2C.png" width='45%' height='45%'/>
