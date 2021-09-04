@@ -5,9 +5,9 @@ import time
 
 class Bump:
     def __init__(self):
-        self.GPIO.setmode(GPIO.BCM)
+        GPIO.setmode(GPIO.BCM)
         self.RELAY = 24
-        self.GPIO.setup(RELAY, GPIO.OUT)
+        GPIO.setup(self.RELAY, GPIO.OUT)
         self.SHT31D = SHT31D()
         self.last_watering_month = 0
         self.last_watering_day = 0
@@ -29,9 +29,9 @@ class Bump:
         self.last_watering_min  = datetime.now().minute
     
     def watering(self):
-        self.GPIO.output(self.RELAY, self.GPIO.HIGH)          
+        GPIO.output(self.RELAY, GPIO.HIGH)          
         time.sleep(3)
-        self.GPIO.output(self.RELAY, self.GPIO.LOW)
+        GPIO.output(self.RELAY, GPIO.LOW)
         self.update_last_watering_time
     
     def auto_watering(self):
