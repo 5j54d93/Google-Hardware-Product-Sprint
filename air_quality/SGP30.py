@@ -32,7 +32,7 @@ class SGP30:
     def good_or_bad(self):
         # CO₂ standard：average 1000 ppm within 8 hours
         # TVOC standard：average 560 ppb within 1 hours
-        if self.eCO2 <= 1000 and self.TVOC <= 560 : return "Can't be better～"
-        elif self.eCO2 > 1000 and self.TVOC <= 560 : return 'CO₂ is too high！'
-        elif self.eCO2 <= 1000 and self.TVOC <= 560 : return 'TVOC is too high！'
+        if self.eCO2() <= 1000 and self.TVOC() <= 560 : return "Can't be better～"
+        elif self.eCO2() > 1000 and self.TVOC() <= 560 : return 'CO₂ is too high！'
+        elif self.eCO2() <= 1000 and self.TVOC() <= 560 : return 'TVOC is too high！'
         else : return 'Air quality is so bad！'
