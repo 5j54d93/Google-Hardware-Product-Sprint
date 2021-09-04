@@ -36,7 +36,7 @@ class SHT31D:
         return self.SHT31D.relative_humidity
     
     def cold_or_hot(self):
-        temperature_C = self.temperature_C
+        temperature_C = self.temperature_C()
         if   temperature_C >= 27 : return "It's very hot！！"
         elif temperature_C >= 23 : return "It's hot！"
         elif temperature_C >= 21 : return "It's warm."
@@ -46,16 +46,16 @@ class SHT31D:
         else                     : return "It's very cold！！"
     
     def dry_or_wet_plant(self):
-        humidity = self.humidity
-        temperature_C = self.temperature_C
+        humidity = self.humidity()
+        temperature_C = self.temperature_C()
         if humidity >= 80 : return "It's humid for plants！"
         elif humidity >= 60 and humidity < 80 and temperature_C >= 22 and temperature_C <= 32 : return 'Plants feel comfortable～'
         elif humidity >= 60 and humidity < 80 : return "It's good for plants."
         else : return "It's dry for plants！"
     
     def dry_or_wet_people(self):
-        humidity = self.humidity
-        temperature_C = self.temperature_C
+        humidity = self.humidity()
+        temperature_C = self.temperature_C()
         if humidity >= 65 : return "It's humid for people！"
         elif humidity >= 45 and humidity < 65 and temperature_C >= 18 and temperature_C <= 23 : return "People feel comfortable～"
         elif humidity >= 45 and humidity < 65 : return "It's good for people."
