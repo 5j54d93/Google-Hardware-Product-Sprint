@@ -22,6 +22,6 @@ class APDS9960:
         r,g,b,c = self.APDS9960.color_data
         return colorutility.calculate_color_temperature(r, g, b)
     
-    def bright_ot_dark(self):
+    def bright_or_dark(self):
         if self.light_value_percentage >= 50 : return 'Bright enough！'
         else : return "It's not bright enough！"
