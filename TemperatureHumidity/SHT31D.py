@@ -7,15 +7,32 @@ class SHT31D:
     def __init__(self):
         i2c = busio.I2C(board.SCL, board.SDA)
         self.SHT31D = adafruit_sht31d.SHT31D(i2c, 0x44)
-        return
+        self.readcount = 0
+    
+    def heater_on(self, second)
+        self.SHT31D.heater = True
+        time.sleep(second)
+        self.SHT31D.heater = False
     
     def temperature_C(self):
+        self.readcount += 1
+        if self.readcount == 10 :
+           self.readcount = 0
+           self.heater_on(1)
         return self.SHT31D.temperature
     
     def temperature_F(self):
+        self.readcount += 1
+        if self.readcount == 10 :
+           self.readcount = 0
+           self.heater_on(1)
         return self.SHT31D.temperature * 9 / 5 + 32
     
     def humidity(self):
+        self.readcount += 1
+        if self.readcount == 10 :
+           self.readcount = 0
+           self.heater_on(1)
         return self.SHT31D.relative_humidity
     
     def cold_or_hot(self):
