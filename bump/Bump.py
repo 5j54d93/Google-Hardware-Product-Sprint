@@ -15,7 +15,7 @@ class Bump:
     
     def last_watering_time(self):
         if self.last_watering_hour = 0 and self.last_watering_min = 0 : return "Haven't watered yet."
-        return str(last_watering_month) + '/' + str(last_watering_day) + ' ' + str(last_watering_hour).zfill(2) + ':' + str(last_watering_min).zfill(2)
+        return str(self.last_watering_month) + '/' + str(self.last_watering_day) + ' ' + str(self.last_watering_hour).zfill(2) + ':' + str(self.last_watering_min).zfill(2)
     
     def upon_last_watering_time(self):
         if self.last_watering_hour = 0 and self.last_watering_min = 0 : return "Haven't watered yet."
