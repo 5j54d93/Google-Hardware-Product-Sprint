@@ -1,6 +1,16 @@
 # [Air quality sensor：SGP30 TVOC/eCO2 Gas Sensor](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-sgp30-gas-tvoc-eco2-mox-sensor.pdf)
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/SGP30.png" width='78%' height='78%'/>
 
+- I2C interface
+- typical accuracy of 15%
+- intended for indoor air quality monitoring
+- SGP30 can detect a wide range of Volatile Organic Compounds（VOCs）and H₂
+- SGP30 will return a Total Volatile Organic Compound（TVOC）reading and an equivalent carbon dioxide reading（eCO2）
+- eCO2（equivalent calculated carbon-dioxide）concentration within a range of 400 to 60000 ppm
+- TVOC（Total Volatile Organic Compound）concentration within a range of 0 to 60000 ppb
+- eCO2 is calculated based on H₂ concentration, so it's not a 'true' CO2 sensor for laboratory use
+- SGP30 is the able to set humidity compensation for better accuracy. An external humidity sensor is required and then the RH% is written over I2C to the sensor, so it can better calculate the TVOC/eCO2 values.
+
 ## Overview
 
 - [SGP30 wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#sgp30-wired-to-raspberry-pi-with-i2c)
