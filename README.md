@@ -6,7 +6,6 @@
 ![GitHub followers](https://img.shields.io/github/followers/5j54d93)
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Google-HPS)
 ![GitHub watchers](https://img.shields.io/github/watchers/5j54d93/Google-HPS)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/5j54d93/Google-HPS?style=plastic)
 
 Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are birds aproaching, buzzer will noise to scare them away！We also have a dashboard（web）to view all related data which could auto switching between Day theme and Nithgt theme！And you could also remote control Raspberry Pi to watering or noising by clicking the button on website if you want！
 
