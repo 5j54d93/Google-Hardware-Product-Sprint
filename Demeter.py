@@ -3,7 +3,7 @@ from acceleration.ADXL203EB import ADXL203EB
 from air_quality.SGP30 import SGP30
 from bump.Bump import Bump
 from buzzer.Buzzer import Buzzer
-from light.APDS9960 import APDS9960
+from light.APDS9960 import APDS
 from temperature_humidity.SHT31D import SHT31D
 
 app = Flask("Demeter")
@@ -11,7 +11,7 @@ acceleration = ADXL203EB()
 air_quality = SGP30()
 bump = Bump()
 buzzer = Buzzer()
-light = APDS9960()
+light = APDS()
 temperature_humidity = SHT31D()
 
 @app.route("/", methods=['GET', 'POST'])
