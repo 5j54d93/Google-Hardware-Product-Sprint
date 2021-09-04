@@ -1,4 +1,5 @@
 from acceleration.ADXL203EB import ADXL203EB
+import RPi.GPIO as GPIO
 import datetime
 import time
 
