@@ -32,7 +32,7 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 
 ## Wiring to Raspberry Pi
 
-- **［I2C］Light**：APDS9960
+- [**［I2C］Light**：APDS9960](https://github.com/5j54d93/Google-HPS/blob/main/light/README.md#apds9960-wired-to-raspberry-pi-with-i2c)
 - [**［I2C］Air Quality**：SGP30](https://github.com/5j54d93/Google-HPS/tree/main/air_quality#sgp30-wired-to-raspberry-pi-with-i2c)
 - **［I2C］Temperature & Humidity**：SHT31-D
 - **［SPI］Acceleration**：ADXL203EB
