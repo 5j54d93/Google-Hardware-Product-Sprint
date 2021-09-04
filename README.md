@@ -13,6 +13,7 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Product.png" width='100%' height='100%'/>
 
 - **Contibuters：[Ricky](https://github.com/5j54d93)、[Darren](https://github.com/darrenyaoyao)、[Zona](https://github.com/zona8815)、[Amy](https://github.com/AmyCHANGY)、[Andrew](https://github.com/TingWeiWong)**
+- **Google HPS APAC TW**：[Official website](https://buildyourfuture.withgoogle.com/programs/hps-apac/)
 - **Improving from [Origin repository](https://github.com/darrenyaoyao/GoogleHPS)**
 - **[PDF](https://www.linkedin.com/in/5j54d93/detail/treasury/position:1818345962/?entityUrn=urn%3Ali%3Afsd_profileTreasuryMedia%3A(ACoAAC6VbdQBQobxRd1rOO_UKJMpmq7spKspF2E%2C1635468225149)&parentEntityUrn=urn%3Ali%3Afsd_profilePosition%3A(ACoAAC6VbdQBQobxRd1rOO_UKJMpmq7spKspF2E%2C1818345962)&section=position%3A1818345962&treasuryCount=2) of our project slides**
 - **Project name**：Demeter
