@@ -18,15 +18,15 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 ## Wiring to Raspberry Pi
 
 - [**［I2C］Air Quality**：SGP30]()
-- **［SPI］G-Sensor**：ADXL203EB
+- **［SPI］Acceleration**：ADXL203EB
 - **［I2C］Light**：APDS9960
 - **［I2C］Temperature & Humidity**：SHT31-D
 
 ### Check the I2C devices：
 
-- **Air Quality**：`0x58`
-- **Light**：`0x39`
-- **Temperature & Humidity**：`0x44`
+- **SGP30**：`0x58`
+- **APDS9960**：`0x39`
+- **SHT31-D**：`0x44`
 
 ```
 pi@raspberrypi:~ $ sudo i2cdetect -y 1
@@ -64,6 +64,8 @@ sudo python3 Demeter.py
 ```
 
 ## Open the Website
+
+You could open it on computer, iPhone, iPad ...,  your device has a browser.
 
 - **URL：`http://[your ip]`**
 - use `ifconfig` to check your ip
