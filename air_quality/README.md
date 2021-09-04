@@ -16,7 +16,7 @@
 - **GND**：6、9、14、20、25、30、34、39
 - **SCL**：5
 - **SDA**：3
-<img src="https://github.com/darrenyaoyao/GoogleHPS/blob/main/AirQuality/Photos/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
+<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
 
 ### Check the I2C devices
 
