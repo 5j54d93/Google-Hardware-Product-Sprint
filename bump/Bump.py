@@ -32,10 +32,10 @@ class Bump:
         GPIO.output(self.RELAY, GPIO.HIGH)          
         time.sleep(3)
         GPIO.output(self.RELAY, GPIO.LOW)
-        self.update_last_watering_time
+        self.update_last_watering_time()
     
     def auto_watering(self):
         if self.SHT31D.dry_or_wet_plant() == "It's dry for plants！" :
             if self.upon_last_watering_time() == "Haven't watering yet." or self.upon_last_watering_time() >= 720 :
-                self.watering
-                self.update_last_watering_time
+                self.watering()
+                self.update_last_watering_time()
