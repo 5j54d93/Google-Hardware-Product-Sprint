@@ -22,7 +22,7 @@ def home():
         if request.form.get('Watering') == 'Watering':
             bump.watering
             bump.update_last_watering_time()
-        else request.form.get('Noise') == 'Noise':
+        elif request.form.get('Noise') == 'Noise':
             buzzer.noising
             buzzer.update_last_noise_time()
     return render_template('home.html',
