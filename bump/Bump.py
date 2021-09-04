@@ -1,4 +1,5 @@
 from temperature_humidity.SHT31D import SHT31D
+import RPi.GPIO as GPIO
 import datetime
 import time
 
