@@ -20,7 +20,7 @@ class Buzzer:
     
     def upon_last_noise_time(self):
         if self.last_noise_hour == 0 and self.last_noise_min == 0 : return "未鳴笛過"
-        return datetime.now().hour * 60 + datetime.now().minute - self.last_nois_hour * 60 - self.last_nois_min
+        return datetime.now().hour * 60 + datetime.now().minute - self.last_noise_hour * 60 - self.last_noise_min
     
     def update_last_noise_time(self):
         self.last_noise_month = datetime.now().month
