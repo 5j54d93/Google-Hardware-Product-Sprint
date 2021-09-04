@@ -1,6 +1,20 @@
 # [Air quality sensor：SGP30 TVOC/eCO2 Gas Sensor](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-sgp30-gas-tvoc-eco2-mox-sensor.pdf)
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/SGP30.png" width='78%' height='78%'/>
 
+## Overview
+
+- [SGP30 wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#sgp30-wired-to-raspberry-pi-with-i2c)
+  - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#raspberry-pi-gpio-pin)
+  - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#check-the-i2c-devices)
+- [Install Libraries](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#install-libraries)
+  - [CircuitPython](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#circuitpython)
+  - [Adafruit's CircuitPython library bundle](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruits-circuitpython-library-bundle)
+  - [adafruit_sgp30.mpy](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_sgp30mpy)
+  - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_bus_device)
+- [Using the SGP30 with CircuitPython and the Adafruit library](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#using-the-sgp30-with-circuitpython-and-the-adafruit-library)
+  - [Docs](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#docs)
+- [Single Page Reference](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#single-page-reference)
+
 ## SGP30 wired to Raspberry Pi with I2C
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/Raspberry%20Pi%20%26%20SGP30%20wired%20with%20I2C.png" width='45%' height='45%'/>
 
@@ -22,7 +36,7 @@
 
 - **SGP30**：`0x58`
 
-```
+```shell
 pi@raspberrypi:~ $ sudo i2cdetect -y 1
      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
 00:          -- -- -- -- -- -- -- -- -- -- -- -- --
@@ -39,26 +53,34 @@ pi@raspberrypi:~ $ sudo i2cdetect -y 1
 
 ### [CircuitPython](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
 
-    sudo apt-get update
-    sudo apt-get upgrade
-    sudo apt-get install python3-pip
-    sudo pip3 install --upgrade setuptools
-    cd ~
-    sudo pip3 install --upgrade adafruit-python-shell
-    wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
-    sudo python3 raspi-blinka.py
+```shell
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install python3-pip
+sudo pip3 install --upgrade setuptools
+cd ~
+sudo pip3 install --upgrade adafruit-python-shell
+wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/raspi-blinka.py
+sudo python3 raspi-blinka.py
+```
 
 ### [Adafruit's CircuitPython library bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
 
-    pip3 install adafruit-circuitpython-lis3dh
+```shell
+pip3 install adafruit-circuitpython-lis3dh
+```
 
 ### [adafruit_sgp30.mpy](https://github.com/adafruit/Adafruit_CircuitPython_SGP30)
 
-    pip3 install adafruit-circuitpython-sgp30
+```shell
+pip3 install adafruit-circuitpython-sgp30
+```
 
 ### [adafruit_bus_device](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/tree/5aceeae814effae4eb950f1078c194b11401faa7)
 
-    pip3 install adafruit-circuitpython-busdevice
+```shell
+pip3 install adafruit-circuitpython-busdevice
+```
 
 ## [Using the SGP30 with CircuitPython and the Adafruit library](https://github.com/adafruit/Adafruit_CircuitPython_SGP30/blob/main/examples/sgp30_simpletest.py)
 
