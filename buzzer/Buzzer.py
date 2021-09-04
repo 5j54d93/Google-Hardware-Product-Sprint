@@ -1,6 +1,6 @@
 from acceleration.ADXL203EB import ADXL203EB
+from datetime import datetime
 import RPi.GPIO as GPIO
-import datetime
 import time
 
 class Buzzer:
