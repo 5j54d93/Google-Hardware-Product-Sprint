@@ -5,9 +5,9 @@ import time
 
 class Buzzer:
     def __init__(self):
-        self.GPIO.setmode(GPIO.BCM)
+        GPIO.setmode(GPIO.BCM)
         self.Buzzer = 23
-        self.GPIO.setup(self.Buzzer, GPIO.OUT)
+        GPIO.setup(self.Buzzer, GPIO.OUT)
         self.ADXL203EB = ADXL203EB()
         self.last_noise_month = 0
         self.last_noise_day   = 0
@@ -29,7 +29,7 @@ class Buzzer:
         self.last_noise_min  = datetime.now().minute
     
     def noising(self):
-        b = self.GPIO.PWM(self.Buzzer, 50)
+        b = GPIO.PWM(self.Buzzer, 50)
         b.start(50)
         b.ChangeFrequency(523)
         time.sleep(1)
