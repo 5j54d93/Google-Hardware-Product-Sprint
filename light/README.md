@@ -21,7 +21,7 @@
 - [Single Page Reference](https://github.com/5j54d93/Google-HPS/tree/main/light#single-page-reference)
 
 ## [APDS9960 wired to Raspberry Pi with I2C](https://www.circuito.io/app?components=9443,12787,200000)
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/light/photo/APDS9960%20wired%20to%20Raspberry%20Pi%20with%20I2C.png.png" width='45%' height='45%'/>
+<img src="https://github.com/5j54d93/Google-HPS/blob/main/light/photo/APDS9960%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/>
 
 |APDS9960|Raspberry Pi|
 |:-:|:-:|
