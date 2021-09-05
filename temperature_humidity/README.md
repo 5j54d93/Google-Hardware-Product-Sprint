@@ -4,6 +4,7 @@
 - I2C interface
 - excellent ±2% relative humidity and ±0.3°C accuracy
 - two address options
+- Pin「ADR」tie to pin「Vin」could change address from `0x44` to `0x45`
 
 ## Overview
 
