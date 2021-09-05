@@ -20,7 +20,7 @@ class Bump:
     
     def upon_last_watering_time(self):
         if self.last_watering_hour == 0 and self.last_watering_min == 0 : return "未澆過水"
-        return datetime.now().hour * 60 + datetime.now().minute - self.last_watering_hour * 60 - self.last_watering_min
+        return str(datetime.now().hour * 60 + datetime.now().minute - self.last_watering_hour * 60 - self.last_watering_min)
     
     def update_last_watering_time(self):
         self.last_watering_month = datetime.now().month
@@ -36,9 +36,6 @@ class Bump:
     
     def auto_watering(self):
         if self.SHT31D.dry_or_wet_plant() == "It's dry for plants！" :
-            if self.upon_last_watering_time() == "Haven't watering yet." :
-                self.watering()
-                self.update_last_watering_time()
-            elif self.upon_last_watering_time() >= 720 :
+            if self.upon_last_watering_time() == "Haven't watering yet." or self.upon_last_watering_time() >= '720' :
                 self.watering()
                 self.update_last_watering_time()
