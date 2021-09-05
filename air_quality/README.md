@@ -74,19 +74,19 @@ wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/m
 sudo python3 raspi-blinka.py
 ```
 
-### [Adafruit's CircuitPython library bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle)
+### [Adafruit's CircuitPython library bundle](https://github.com/adafruit/Adafruit_CircuitPython_Bundle#cpython)
 
 ```shell
 pip3 install adafruit-circuitpython-lis3dh
 ```
 
-### [adafruit_sgp30.mpy](https://github.com/adafruit/Adafruit_CircuitPython_SGP30)
+### [adafruit_sgp30.mpy](https://github.com/adafruit/Adafruit_CircuitPython_SGP30#installing-from-pypi)
 
 ```shell
 pip3 install adafruit-circuitpython-sgp30
 ```
 
-### [adafruit_bus_device](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/tree/5aceeae814effae4eb950f1078c194b11401faa7)
+### [adafruit_bus_device](https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/tree/5aceeae814effae4eb950f1078c194b11401faa7#adafruit-circuitpython-busdevice)
 
 ```shell
 pip3 install adafruit-circuitpython-busdevice
