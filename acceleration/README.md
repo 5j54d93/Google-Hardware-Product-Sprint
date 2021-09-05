@@ -7,16 +7,15 @@
 
 ## Overview
 
-- [APDS9960 wired to Raspberry Pi with I2C]()
-  - [Raspberry Pi GPIO Pin]()
-  - [Check the I2C devices]()
-- [Install Libraries]()
-  - [adafruit_apds9960]()
-  - [adafruit_bus_device]()
-  - [adafruit_register]()
-- [Using APDS9960 with Adafruit library]()
-  - [Docs]()
-- [Single Page Reference]()
+- [ADXL203EB wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#adxl203eb-wired-to-raspberry-pi-with-spi)
+  - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#raspberry-pi-gpio-pin)
+  - [Check the SPI devices](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#check-the-spi-devices)
+- [Install Libraries](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#install-libraries)
+  - [adafruit-blinka](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#adafruit-blinka)
+  - [mcp3008](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#mcp3008)
+- [Using ADXL203EB and MCP3008 with Adafruit library](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#using-adxl203eb-and-mcp3008-with-adafruit-library)
+  - [Docs](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#docs)
+- [Single Page Reference](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#single-page-reference)
 
 ## [ADXL203EB wired to Raspberry Pi with SPI](https://www.circuito.io/app?components=9269,9443,200000)
 
