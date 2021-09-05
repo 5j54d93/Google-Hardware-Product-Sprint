@@ -59,7 +59,8 @@ pi@raspberrypi:~ $ sudo i2cdetect -y 1
 
 ### Check the SPI devices：
 
-- **Raspberry Pi** -> **MCP3008** -> **ADXL203EB**
+|**Raspberry Pi**|→|**MCP3008**|→|**ADXL203EB**|
+|:-:|:-:|:-:|:-:|:-:|
 
 ```shell
 pi@raspberrypi:~ $ ls -l /dev/spidev*
