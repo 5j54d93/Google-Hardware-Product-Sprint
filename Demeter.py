@@ -23,9 +23,14 @@ def home():
         if request.form.get('Watering') == 'Watering':
             bump.watering
             bump.update_last_watering_time()
+            return reload()
         elif request.form.get('Noise') == 'Noise':
             buzzer.noising
             buzzer.update_last_noise_time()
+            return reload()
+    return reload()
+
+def reload():
     return render_template('home.html',
                            air_quality = air_quality.good_or_bad(),
                            eCO2 = air_quality.eCO2(),
