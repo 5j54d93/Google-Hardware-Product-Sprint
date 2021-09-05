@@ -90,6 +90,8 @@ You could open it on computer, iPhone, iPad ......, as long as your device has a
 
 ### Screenshot with Day theme and Nithgt theme（Automatic switching）
 
+More detail information：[template's README](https://github.com/5j54d93/Google-HPS/tree/main/templates)
+
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Screenshot.png" width='100%' height='100%'/>
 
 ## Block Diagram
