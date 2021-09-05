@@ -36,6 +36,9 @@ class Bump:
     
     def auto_watering(self):
         if self.SHT31D.dry_or_wet_plant() == "It's dry for plants！" :
-            if self.upon_last_watering_time() == "Haven't watering yet." or self.upon_last_watering_time() >= 720 :
+            if self.upon_last_watering_time() == "Haven't watering yet." :
+                self.watering()
+                self.update_last_watering_time()
+            elif self.upon_last_watering_time() >= 720 :
                 self.watering()
                 self.update_last_watering_time()
