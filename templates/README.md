@@ -9,13 +9,13 @@
 
 ## Overview
 
-- [Screenshot with Day theme and Nithgt theme](https://github.com/5j54d93/Google-HPS/tree/main/templates#screenshot-with-day-theme-and-nithgt-theme)
-- [Using Bootstrap to design web frontend](https://github.com/5j54d93/Google-HPS/tree/main/templates#using-bootstrap-to-design-web-frontend)
-  - [top title and time display](https://github.com/5j54d93/Google-HPS/tree/main/templates#top-title-and-time-display)
-  - [information cards](https://github.com/5j54d93/Google-HPS/tree/main/templates#information-cards)
-  - [footer](https://github.com/5j54d93/Google-HPS/tree/main/templates#footer)
-  - [Auto switching between Day theme and Night theme](https://github.com/5j54d93/Google-HPS/tree/main/templates#auto-switching-between-day-theme-and-night-theme)
-- [Web feature](https://github.com/5j54d93/Google-HPS/tree/main/templates#web-feature)
+1. [Screenshot with Day theme and Nithgt theme](https://github.com/5j54d93/Google-HPS/tree/main/templates#screenshot-with-day-theme-and-nithgt-theme)
+2. [Using Bootstrap to design web frontend](https://github.com/5j54d93/Google-HPS/tree/main/templates#using-bootstrap-to-design-web-frontend)
+   - [top title and time display](https://github.com/5j54d93/Google-HPS/tree/main/templates#top-title-and-time-display)
+   - [information cards](https://github.com/5j54d93/Google-HPS/tree/main/templates#information-cards)
+   - [footer](https://github.com/5j54d93/Google-HPS/tree/main/templates#footer)
+   - [Auto switching between Day theme and Night theme](https://github.com/5j54d93/Google-HPS/tree/main/templates#auto-switching-between-day-theme-and-night-theme)
+3. [Web feature](https://github.com/5j54d93/Google-HPS/tree/main/templates#web-feature)
 
 ## Screenshot with Day theme and Nithgt theme
 
