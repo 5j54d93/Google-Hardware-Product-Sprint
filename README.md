@@ -21,14 +21,14 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 
 ## Overview
 
-- [Wiring to Raspberry Pi](https://github.com/5j54d93/Google-HPS#wiring-to-raspberry-pi)
-  - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
-  - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#check-the-spi-devices)
-- [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-HPS#install-libraries-on-raspberry-pi)
-- [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#run-web-server-on-raspberry-pi)
-- [Open the Website](https://github.com/5j54d93/Google-HPS#open-the-website)
-- [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
-- [License](https://github.com/5j54d93/Google-HPS#license)
+1. [Wiring to Raspberry Pi](https://github.com/5j54d93/Google-HPS#wiring-to-raspberry-pi)
+   - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
+   - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#check-the-spi-devices)
+2. [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-HPS#install-libraries-on-raspberry-pi)
+3. [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#run-web-server-on-raspberry-pi)
+4. [Open the Website](https://github.com/5j54d93/Google-HPS#open-the-website)
+5. [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
+6. [License](https://github.com/5j54d93/Google-HPS#license)
 
 ## Wiring to Raspberry Pi
 
