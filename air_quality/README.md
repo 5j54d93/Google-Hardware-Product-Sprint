@@ -13,17 +13,17 @@
 
 ## Overview
 
-- [SGP30 wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#sgp30-wired-to-raspberry-pi-with-i2c)
-  - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#raspberry-pi-gpio-pin)
-  - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#check-the-i2c-devices)
-- [Install Libraries](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#install-libraries)
-  - [CircuitPython](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#circuitpython)
-  - [Adafruit's CircuitPython library bundle](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruits-circuitpython-library-bundle)
-  - [adafruit_sgp30.mpy](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_sgp30mpy)
-  - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_bus_device)
-- [Using SGP30 with CircuitPython and Adafruit library](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#using-sgp30-with-circuitpython-and-adafruit-library)
-  - [Docs](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#docs)
-- [Single Page Reference](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#single-page-reference)
+1. [SGP30 wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#sgp30-wired-to-raspberry-pi-with-i2c)
+   - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#raspberry-pi-gpio-pin)
+   - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#check-the-i2c-devices)
+2. [Install Libraries](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#install-libraries)
+   - [CircuitPython](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#circuitpython)
+   - [Adafruit's CircuitPython library bundle](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruits-circuitpython-library-bundle)
+   - [adafruit_sgp30.mpy](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_sgp30mpy)
+   - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_bus_device)
+3. [Using SGP30 with CircuitPython and Adafruit library](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#using-sgp30-with-circuitpython-and-adafruit-library)
+   - [Docs](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#docs)
+4. [Single Page Reference](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#single-page-reference)
 
 ## [SGP30 wired to Raspberry Pi with I2C](https://www.circuito.io/app?components=9443,35286,200000)
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/SGP30%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/><img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/Adafruit：SGP30%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='55%' height='55%'/>
