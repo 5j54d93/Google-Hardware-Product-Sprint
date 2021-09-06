@@ -8,15 +8,15 @@
 
 ## Overview
 
-- [SHT31-D wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#sht31-d-wired-to-raspberry-pi-with-i2c)
-  - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#raspberry-pi-gpio-pin)
-  - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#check-the-i2c-devices)
-- [Install Libraries](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#install-libraries)
-  - [adafruit_sht31d.mpy](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#adafruit_sht31dmpy)
-  - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#adafruit_bus_device)
-- [Using SHT31-D with Adafruit library](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#using-sht31-d-with-adafruit-library)
-  - [Docs](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#docs)
-- [Single Page Reference](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#single-page-reference)
+1. [SHT31-D wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#sht31-d-wired-to-raspberry-pi-with-i2c)
+   - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#raspberry-pi-gpio-pin)
+   - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#check-the-i2c-devices)
+2. [Install Libraries](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#install-libraries)
+   - [adafruit_sht31d.mpy](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#adafruit_sht31dmpy)
+   - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#adafruit_bus_device)
+3. [Using SHT31-D with Adafruit library](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#using-sht31-d-with-adafruit-library)
+   - [Docs](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#docs)
+4. [Single Page Reference](https://github.com/5j54d93/Google-HPS/tree/main/temperature_humidity#single-page-reference)
 
 ## SHT31-D wired to Raspberry Pi with I2C
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/temperature_humidity/photo/SHT31-D%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/>
