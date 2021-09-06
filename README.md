@@ -77,6 +77,7 @@ sudo pip3 install -r requirements.txt
 ## Run Web Server on Raspberry Pi
 
 ```shell
+cd Google-HPS
 sudo python3 Demeter.py
 ```
 
