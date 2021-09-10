@@ -97,7 +97,7 @@ More detail information：[template's README](https://github.com/5j54d93/Google-
 
 ## Block Diagram
 
-_This may not show on Chrome, but could be see on Safari！_
+_This may not show on Chrome, but could be seen on Safari！_
 
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Block_Diagram.png?raw=true" width='100%' height='100%'/>
 
