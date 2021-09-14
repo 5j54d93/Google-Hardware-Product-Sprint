@@ -23,8 +23,8 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 ## Google HPS｜Overview
 
 1. [Wiring to Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpswiring-to-raspberry-pi)
-   - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#google-hpscheck-the-i2c-devices)
-   - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#google-hpscheck-the-spi-devices)
+   - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
+   - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#check-the-spi-devices)
 2. [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsinstall-libraries-on-raspberry-pi)
 3. [Download this Repository on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsdownload-this-repository-on-raspberry-pi)
 5. [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsrun-web-server-on-raspberry-pi)
