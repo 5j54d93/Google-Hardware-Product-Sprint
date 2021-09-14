@@ -29,8 +29,8 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 3. [Download this Repository on Raspberry Pi](https://github.com/5j54d93/Google-HPS#download-this-repository-on-raspberry-pi)
 5. [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#run-web-server-on-raspberry-pi)
 6. [Open the Website](https://github.com/5j54d93/Google-HPS#open-the-website)
-7. [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
-8. [License](https://github.com/5j54d93/Google-HPS#license)
+- [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
+- [License](https://github.com/5j54d93/Google-HPS#license)
 
 ## Wiring to Raspberry Pi
 
