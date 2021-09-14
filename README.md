@@ -101,6 +101,6 @@ _This may not show on Chrome, but could be seen on Safari！_
 
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Block_Diagram.png?raw=true" width='100%' height='100%'/>
 
-## License
+## License：© Google Hardware Product Sprint 2021
 
-This package is licensed under MIT license. See [LICENSE](https://github.com/5j54d93/Google-HPS/blob/main/LICENSE) for details.
+This package is licensed under MIT license. See [LICENSE](https://github.com/5j54d93/Google-HPS/blob/main/LICENSE) for details.  
