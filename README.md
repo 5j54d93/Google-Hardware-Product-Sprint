@@ -20,7 +20,7 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 - **Project name**：Demeter
 - **Team**：2
 
-## Overview
+## Google HPS｜Overview
 
 1. [Wiring to Raspberry Pi](https://github.com/5j54d93/Google-HPS#wiring-to-raspberry-pi)
    - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
@@ -32,7 +32,7 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 - [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
 - [License](https://github.com/5j54d93/Google-HPS#license-google-hardware-product-sprint-2021)
 
-## Wiring to Raspberry Pi
+## Google HPS｜Wiring to Raspberry Pi
 
 - [**［I2C］Light**：APDS9960](https://github.com/5j54d93/Google-HPS/blob/main/light/README.md#apds9960-wired-to-raspberry-pi-with-i2c)
 - [**［I2C］Air Quality**：SGP30](https://github.com/5j54d93/Google-HPS/tree/main/air_quality#sgp30-wired-to-raspberry-pi-with-i2c)
@@ -70,26 +70,26 @@ crw-rw---- 1 root spi 153, 0 Aug 28 13:17 /dev/spidev0.0
 crw-rw---- 1 root spi 153, 1 Aug 28 13:17 /dev/spidev0.1
 ```
 
-## Install Libraries on Raspberry Pi
+## Google HPS｜Install Libraries on Raspberry Pi
 
 ```shell
 sudo pip3 install -r requirements.txt
 ```
 
-## Download this Repository on Raspberry Pi
+## Google HPS｜Download this Repository on Raspberry Pi
 
 ```shell
 git clone https://github.com/5j54d93/Google-HPS
 ```
 
-## Run Web Server on Raspberry Pi
+## Google HPS｜Run Web Server on Raspberry Pi
 
 ```shell
 cd Google-HPS
 sudo python3 Demeter.py
 ```
 
-## Open the Website
+## Google HPS｜Open the Website
 
 You could open it on computer, iPhone, iPad ......, as long as your device has a browser.
 
@@ -103,12 +103,12 @@ More detail information：[template's README](https://github.com/5j54d93/Google-
 
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Screenshot.png" width='100%' height='100%'/>
 
-## Block Diagram
+## Google HPS｜Block Diagram
 
 _This may not show on Chrome, but could be seen on Safari！_
 
 <img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Block_Diagram.png?raw=true" width='100%' height='100%'/>
 
-## License：© Google Hardware Product Sprint 2021
+## Google HPS｜License：© Google Hardware Product Sprint 2021
 
 This package is licensed under MIT license. See [LICENSE](https://github.com/5j54d93/Google-HPS/blob/main/LICENSE) for details.  
