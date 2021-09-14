@@ -29,6 +29,7 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 3. [Download this Repository on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsdownload-this-repository-on-raspberry-pi)
 5. [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsrun-web-server-on-raspberry-pi)
 6. [Open the Website](https://github.com/5j54d93/Google-HPS#google-hpsopen-the-website)
+   - [Screenshot with Day theme and Nithgt theme（Automatic switching）](https://github.com/5j54d93/Google-HPS#screenshot-with-day-theme-and-nithgt-themeautomatic-switching)
 - [Block Diagram](https://github.com/5j54d93/Google-HPS#google-hpsblock-diagram)
 - [License](https://github.com/5j54d93/Google-HPS#google-hpslicense-google-hardware-product-sprint-2021)
 
