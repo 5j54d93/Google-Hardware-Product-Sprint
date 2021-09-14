@@ -26,10 +26,11 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
    - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
    - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#check-the-spi-devices)
 2. [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-HPS#install-libraries-on-raspberry-pi)
-3. [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#run-web-server-on-raspberry-pi)
-4. [Open the Website](https://github.com/5j54d93/Google-HPS#open-the-website)
-5. [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
-6. [License](https://github.com/5j54d93/Google-HPS#license)
+3. [Download this Repository on Raspberry Pi]()
+5. [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#run-web-server-on-raspberry-pi)
+6. [Open the Website](https://github.com/5j54d93/Google-HPS#open-the-website)
+7. [Block Diagram](https://github.com/5j54d93/Google-HPS#block-diagram)
+8. [License](https://github.com/5j54d93/Google-HPS#license)
 
 ## Wiring to Raspberry Pi
 
@@ -73,6 +74,12 @@ crw-rw---- 1 root spi 153, 1 Aug 28 13:17 /dev/spidev0.1
 
 ```shell
 sudo pip3 install -r requirements.txt
+```
+
+## Download this Repository on Raspberry Pi
+
+```shell
+git clone https://github.com/5j54d93/Google-HPS
 ```
 
 ## Run Web Server on Raspberry Pi
