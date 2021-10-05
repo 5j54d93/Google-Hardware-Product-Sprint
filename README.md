@@ -92,7 +92,8 @@ sudo python3 Demeter.py
 
 ## Google HPS｜Open the Website
 
-You could open it on computer, iPhone, iPad ......, as long as your device has a browser.
+You could open it on computer, iPhone, iPad ......, as long as your device has a browser.  
+_Make sure your device and Raspberry Pi are connect to the same WiFi._
 
 - **URL：`http://[your ip]`**
 - use `ifconfig` to check your ip
