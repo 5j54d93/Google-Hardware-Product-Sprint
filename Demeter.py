@@ -21,11 +21,11 @@ def home():
     buzzer.auto_noising()
     if request.method == 'POST':
         if request.form.get('Watering') == 'Watering':
-            bump.watering
+            bump.watering()
             bump.update_last_watering_time()
             return reload()
         elif request.form.get('Noise') == 'Noise':
-            buzzer.noising
+            buzzer.noising()
             buzzer.update_last_noise_time()
             return reload()
     return reload()
