@@ -29,9 +29,9 @@ class Bump:
         self.last_watering_min  = datetime.now().minute
     
     def watering(self):
-        GPIO.output(self.RELAY, GPIO.HIGH)          
+        GPIO.output(self.RELAY, GPIO.LOW)          
         time.sleep(3)
-        GPIO.output(self.RELAY, GPIO.LOW)
+        GPIO.output(self.RELAY, GPIO.HIGH)
         self.update_last_watering_time()
     
     def auto_watering(self):
