@@ -22,16 +22,16 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 
 ## Google HPS｜Overview
 
-1. [Wiring to Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpswiring-to-raspberry-pi)
+1. [**Wiring to Raspberry Pi**](https://github.com/5j54d93/Google-HPS#google-hpswiring-to-raspberry-pi)
    - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
    - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#check-the-spi-devices)
-2. [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsinstall-libraries-on-raspberry-pi)
-3. [Download this Repository on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsdownload-this-repository-on-raspberry-pi)
-5. [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsrun-web-server-on-raspberry-pi)
-6. [Open the Website](https://github.com/5j54d93/Google-HPS#google-hpsopen-the-website)
+2. [**Install Libraries on Raspberry Pi**](https://github.com/5j54d93/Google-HPS#google-hpsinstall-libraries-on-raspberry-pi)
+3. [**Download this Repository on Raspberry Pi**](https://github.com/5j54d93/Google-HPS#google-hpsdownload-this-repository-on-raspberry-pi)
+4. [**Run Web Server on Raspberry Pi**](https://github.com/5j54d93/Google-HPS#google-hpsrun-web-server-on-raspberry-pi)
+5. [**Open the Website**](https://github.com/5j54d93/Google-HPS#google-hpsopen-the-website)
    - [Screenshot with Day theme and Nithgt theme（Automatic switching）](https://github.com/5j54d93/Google-HPS#screenshot-with-day-theme-and-nithgt-themeautomatic-switching)
-- [Block Diagram](https://github.com/5j54d93/Google-HPS#google-hpsblock-diagram)
-- [License](https://github.com/5j54d93/Google-HPS#google-hpslicense-google-hardware-product-sprint-2021)
+6. [**Block Diagram**](https://github.com/5j54d93/Google-HPS#google-hpsblock-diagram)
+7. [**LICENSE：MIT**](https://github.com/5j54d93/Google-HPS#google-hpslicense-google-hardware-product-sprint-2021)
 
 ## Google HPS｜Wiring to Raspberry Pi
 
