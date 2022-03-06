@@ -8,7 +8,7 @@
 
 Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are birds aproaching, buzzer will noise to scare them away！We also have a dashboard（web）to view all related data which could auto switching between Day theme and Nithgt theme！And you could also remote control Raspberry Pi to watering or noising by clicking the button on website if you want！
 
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Product.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/.github/assets/Product.png" width='100%' height='100%'/>
 
 - **Contibuters：[Ricky](https://github.com/5j54d93)、[Darren](https://github.com/darrenyaoyao)、[Zona](https://github.com/zona8815)、[Amy](https://github.com/AmyCHANGY)、[Andrew](https://github.com/TingWeiWong)**
 - **Google HPS APAC TW**：[Official website](https://buildyourfuture.withgoogle.com/programs/hps-apac/)
@@ -105,11 +105,11 @@ _Make sure your device and Raspberry Pi are connect to the same WiFi._
 
 More detail information：[template's README](https://github.com/5j54d93/Google-HPS/tree/main/templates)
 
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Screenshot.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/.github/assets/Screenshot.png" width='100%' height='100%'/>
 
 ## Block Diagram
 
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Block_Diagram.png?raw=true" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/.github/assets/Block_Diagram.png?raw=true" width='100%' height='100%'/>
 
 ## License：MIT
 
