@@ -1,5 +1,6 @@
 # [Light sensor：APDS9960](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-apds9960-breakout.pdf?timestamp=1630771488)
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/light/photo/APDS9960.png" width='78%' height='78%'/>
+
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/light/.github/assets/APDS9960.png" width='78%' height='78%'/>
 
 - I2C interface
 - gesture sensing
@@ -9,19 +10,20 @@
 
 ## Overview
 
-1. [APDS9960 wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/tree/main/light#apds9960-wired-to-raspberry-pi-with-i2c)
+1. [**APDS9960 wired to Raspberry Pi with I2C**](https://github.com/5j54d93/Google-HPS/tree/main/light#apds9960-wired-to-raspberry-pi-with-i2c)
    - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/tree/main/light#raspberry-pi-gpio-pin)
    - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/tree/main/light#check-the-i2c-devices)
-2. [Install Libraries](https://github.com/5j54d93/Google-HPS/tree/main/light#install-libraries)
+2. [**Install Libraries**](https://github.com/5j54d93/Google-HPS/tree/main/light#install-libraries)
    - [adafruit_apds9960](https://github.com/5j54d93/Google-HPS/tree/main/light#adafruit_apds9960)
    - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/tree/main/light#adafruit_bus_device)
    - [adafruit_register](https://github.com/5j54d93/Google-HPS/tree/main/light#adafruit_register)
-3. [Using APDS9960 with Adafruit library](https://github.com/5j54d93/Google-HPS/tree/main/light#using-apds9960-with-adafruit-library)
+3. [**Using APDS9960 with Adafruit library**](https://github.com/5j54d93/Google-HPS/tree/main/light#using-apds9960-with-adafruit-library)
    - [Docs](https://github.com/5j54d93/Google-HPS/tree/main/light#docs)
-4. [Single Page Reference](https://github.com/5j54d93/Google-HPS/tree/main/light#single-page-reference)
+4. [**Single Page Reference**](https://github.com/5j54d93/Google-HPS/tree/main/light#single-page-reference)
 
 ## [APDS9960 wired to Raspberry Pi with I2C](https://www.circuito.io/app?components=9443,12787,200000)
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/light/photo/APDS9960%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/>
+
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/light/.github/assets/APDS9960%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/>
 
 |APDS9960|Raspberry Pi|
 |:-:|:-:|
@@ -31,11 +33,13 @@
 |SDA|SDA|
 
 ### Raspberry Pi GPIO Pin
+
 - **3V3**：1、17
 - **GND**：6、9、14、20、25、30、34、39
 - **SCL**：5
 - **SDA**：3
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
+
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/light/.github/assets/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
 
 ### Check the I2C devices
 
@@ -106,6 +110,7 @@ while True:
 ```
 
 ### Docs
+
 - [`busio.I2C()`](https://circuitpython.readthedocs.io/en/latest/shared-bindings/busio/#busio.I2C)
 - [`APDS9960()`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html)
 - [`enable_color`](https://circuitpython.readthedocs.io/projects/apds9960/en/latest/api.html?highlight=enable_color#adafruit_apds9960.apds9960.APDS9960.enable_color)
