@@ -1,5 +1,6 @@
 # [Air quality sensor：SGP30 TVOC/eCO2 Gas Sensor](https://cdn-learn.adafruit.com/downloads/pdf/adafruit-sgp30-gas-tvoc-eco2-mox-sensor.pdf)
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/SGP30.png" width='78%' height='78%'/>
+
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/air_quality/.github/assets/SGP30.png" width='78%' height='78%'/>
 
 - I2C interface
 - typical accuracy of 15%
@@ -13,20 +14,21 @@
 
 ## Overview
 
-1. [SGP30 wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#sgp30-wired-to-raspberry-pi-with-i2c)
+1. [**SGP30 wired to Raspberry Pi with I2C**](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#sgp30-wired-to-raspberry-pi-with-i2c)
    - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#raspberry-pi-gpio-pin)
    - [Check the I2C devices](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#check-the-i2c-devices)
-2. [Install Libraries](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#install-libraries)
+2. [**Install Libraries**](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#install-libraries)
    - [CircuitPython](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#circuitpython)
    - [Adafruit's CircuitPython library bundle](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruits-circuitpython-library-bundle)
    - [adafruit_sgp30.mpy](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_sgp30mpy)
    - [adafruit_bus_device](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#adafruit_bus_device)
-3. [Using SGP30 with CircuitPython and Adafruit library](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#using-sgp30-with-circuitpython-and-adafruit-library)
+3. [**Using SGP30 with CircuitPython and Adafruit library**](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#using-sgp30-with-circuitpython-and-adafruit-library)
    - [Docs](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#docs)
-4. [Single Page Reference](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#single-page-reference)
+4. [**Single Page Reference**](https://github.com/5j54d93/Google-HPS/blob/main/air_quality/README.md#single-page-reference)
 
 ## [SGP30 wired to Raspberry Pi with I2C](https://www.circuito.io/app?components=9443,35286,200000)
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/SGP30%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/><img src="https://github.com/5j54d93/Google-HPS/blob/main/air_quality/photo/Adafruit：SGP30%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='55%' height='55%'/>
+
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/air_quality/.github/assets/SGP30%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='45%' height='45%'/><img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/air_quality/.github/assets/Adafruit：SGP30%20wired%20to%20Raspberry%20Pi%20with%20I2C.png" width='55%' height='55%'/>
 
 |SGP30|Raspberry Pi|
 |:-:|:-:|
@@ -36,11 +38,13 @@
 |SDA|SDA|
 
 ### Raspberry Pi GPIO Pin
+
 - **3V3**：1、17
 - **GND**：6、9、14、20、25、30、34、39
 - **SCL**：5
 - **SDA**：3
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
+
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/air_quality/.github/assets/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
 
 ### Check the I2C devices
 
@@ -124,6 +128,7 @@ while True:
 ```
 
 ### Docs
+
 - [`busio.I2C()`](https://circuitpython.readthedocs.io/en/latest/shared-bindings/busio/#busio.I2C)
 - [`adafruit_sgp30.Adafruit_SGP30()`](https://circuitpython.readthedocs.io/projects/sgp30/en/latest/api.html#adafruit_sgp30.Adafruit_SGP30)
 - [`sgp30.iaq_init()`](https://circuitpython.readthedocs.io/projects/sgp30/en/latest/api.html?highlight=iaq_init#adafruit_sgp30.Adafruit_SGP30.iaq_init)
