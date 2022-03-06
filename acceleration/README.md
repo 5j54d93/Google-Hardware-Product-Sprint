@@ -1,5 +1,6 @@
 # [G sensor：ADXL203EB](http://www.farnell.com/datasheets/1793797.pdf)
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/acceleration/photo/ADXL203EB.png" width='30%' height='30%'/><img src="https://github.com/5j54d93/Google-HPS/blob/main/acceleration/photo/MCP3008.png" width='40%' height='40%'/>
+
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/acceleration/.github/assets/ADXL203EB.png" width='30%' height='30%'/><img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/acceleration/.github/assets/MCP3008.png" width='40%' height='40%'/>
 
 - SPI interface
 - High accuracy, 2-axis tilt sensing
@@ -7,21 +8,21 @@
 
 ## Overview
 
-1. [ADXL203EB wired to Raspberry Pi with I2C](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#adxl203eb-wired-to-raspberry-pi-with-spi)
+1. [**ADXL203EB wired to Raspberry Pi with I2C**](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#adxl203eb-wired-to-raspberry-pi-with-spi)
    - [Raspberry Pi GPIO Pin](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#raspberry-pi-gpio-pin)
    - [Check the SPI devices](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#check-the-spi-devices)
-2. [Install Libraries](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#install-libraries)
+2. [**Install Libraries**](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#install-libraries)
    - [adafruit-blinka](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#adafruit-blinka)
    - [mcp3008](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#mcp3008)
-3. [Using ADXL203EB and MCP3008 with Adafruit library](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#using-adxl203eb-and-mcp3008-with-adafruit-library)
+3. [**Using ADXL203EB and MCP3008 with Adafruit library**](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#using-adxl203eb-and-mcp3008-with-adafruit-library)
    - [Docs](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#docs)
-4. [Single Page Reference](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#single-page-reference)
+4. [**Single Page Reference**](https://github.com/5j54d93/Google-HPS/tree/main/acceleration#single-page-reference)
 
 ## [ADXL203EB wired to Raspberry Pi with SPI](https://www.circuito.io/app?components=9269,9443,200000)
 
 Because ADXL203EB is an analog input for Raspberry Pi, we should use MCP3008 to connect between ADXL203EB and Raspberry Pi with SPI！
 
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/acceleration/photo/ADXL203EB%20wired%20to%20Raspberry%20Pi%20with%20SPI.png" width='45%' height='45%'/><img src="https://github.com/5j54d93/Google-HPS/blob/main/acceleration/photo/MCP3008%20Pinout.png" width='55%' height='55%'/>
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/acceleration/.github/assets/ADXL203EB%20wired%20to%20Raspberry%20Pi%20with%20SPI.png" width='45%' height='45%'/><img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/acceleration/.github/assets/MCP3008%20Pinout.png" width='55%' height='55%'/>
 
 |ADXL203EB|MCP3008|Raspberry Pi|
 |:-:|:-:|:-:|
@@ -46,7 +47,7 @@ Because ADXL203EB is an analog input for Raspberry Pi, we should use MCP3008 to 
 - **MOSI**：19
 - **GPIO #22**：15
 
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/acceleration/.github/assets/Raspberry%20Pi%20GPIO.png" width='95%' height='95%'/>
 
 ### Check the SPI devices
 
