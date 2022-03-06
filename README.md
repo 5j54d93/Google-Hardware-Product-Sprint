@@ -21,17 +21,17 @@ Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are 
 
 ## Overview
 
-1. [**Wiring to Raspberry Pi**](https://github.com/5j54d93/Google-HPS#google-hpswiring-to-raspberry-pi)
-   - [Check the I2C devices](https://github.com/5j54d93/Google-HPS#check-the-i2c-devices)
-   - [Check the SPI devices](https://github.com/5j54d93/Google-HPS#check-the-spi-devices)
-2. [**How To Use**]()
-   - [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsinstall-libraries-on-raspberry-pi)
-   - [Download this Repository on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsdownload-this-repository-on-raspberry-pi)
-   - [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-HPS#google-hpsrun-web-server-on-raspberry-pi)
-   - [Open the Website](https://github.com/5j54d93/Google-HPS#google-hpsopen-the-website)
-     - [Screenshot with Day theme and Nithgt theme（Automatic switching）](https://github.com/5j54d93/Google-HPS#screenshot-with-day-theme-and-nithgt-themeautomatic-switching)
-3. [**Block Diagram**](https://github.com/5j54d93/Google-HPS#google-hpsblock-diagram)
-4. [**LICENSE：MIT**](https://github.com/5j54d93/Google-HPS#google-hpslicense-google-hardware-product-sprint-2021)
+1. [**Wiring to Raspberry Pi**](https://github.com/5j54d93/Google-Hardware-Product-Sprint#wiring-to-raspberry-pi)
+   - [Check the I2C devices](https://github.com/5j54d93/Google-Hardware-Product-Sprint#check-the-i2c-devices)
+   - [Check the SPI devices](https://github.com/5j54d93/Google-Hardware-Product-Sprint#check-the-spi-devices)
+2. [**How To Use**](https://github.com/5j54d93/Google-Hardware-Product-Sprint#how-to-use)
+   - [Install Libraries on Raspberry Pi](https://github.com/5j54d93/Google-Hardware-Product-Sprint#install-libraries-on-raspberry-pi)
+   - [Download this Repository on Raspberry Pi](https://github.com/5j54d93/Google-Hardware-Product-Sprint#download-this-repository-on-raspberry-pi)
+   - [Run Web Server on Raspberry Pi](https://github.com/5j54d93/Google-Hardware-Product-Sprint#run-web-server-on-raspberry-pi)
+   - [Open the Website](https://github.com/5j54d93/Google-Hardware-Product-Sprint#open-the-website)
+     - [Screenshot with Day theme and Nithgt theme（Automatic switching）](https://github.com/5j54d93/Google-Hardware-Product-Sprint#screenshot-with-day-theme-and-nithgt-themeautomatic-switching)
+3. [**Block Diagram**](https://github.com/5j54d93/Google-Hardware-Product-Sprint#block-diagram)
+4. [**LICENSE：MIT**](https://github.com/5j54d93/Google-Hardware-Product-Sprint#licensemit)
 
 ## Wiring to Raspberry Pi
 
