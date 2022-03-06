@@ -9,17 +9,17 @@
 
 ## Overview
 
-1. [Screenshot with Day theme and Nithgt theme](https://github.com/5j54d93/Google-HPS/tree/main/templates#screenshot-with-day-theme-and-nithgt-theme)
-2. [Using Bootstrap to design web frontend](https://github.com/5j54d93/Google-HPS/tree/main/templates#using-bootstrap-to-design-web-frontend)
+1. [**Screenshot with Day theme and Nithgt theme**](https://github.com/5j54d93/Google-HPS/tree/main/templates#screenshot-with-day-theme-and-nithgt-theme)
+2. [**Using Bootstrap to design web frontend**](https://github.com/5j54d93/Google-HPS/tree/main/templates#using-bootstrap-to-design-web-frontend)
    - [top title and time display](https://github.com/5j54d93/Google-HPS/tree/main/templates#top-title-and-time-display)
    - [information cards](https://github.com/5j54d93/Google-HPS/tree/main/templates#information-cards)
    - [footer](https://github.com/5j54d93/Google-HPS/tree/main/templates#footer)
    - [Auto switching between Day theme and Night theme](https://github.com/5j54d93/Google-HPS/tree/main/templates#auto-switching-between-day-theme-and-night-theme)
-3. [Web feature](https://github.com/5j54d93/Google-HPS/tree/main/templates#web-feature)
+3. [**Web feature**](https://github.com/5j54d93/Google-HPS/tree/main/templates#web-feature)
 
 ## Screenshot with Day theme and Nithgt theme
 
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/Screenshot.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/templates/.github/assets/Screenshot.png" width='100%' height='100%'/>
 
 ## Using [Bootstrap](https://bootstrap5.hexschool.com/docs/5.0/getting-started/introduction/) to design web frontend
 
@@ -117,4 +117,4 @@
 
 ## Web feature
 
-<img src="https://github.com/5j54d93/Google-HPS/blob/main/photo/web%20feature.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/Google-Hardware-Product-Sprint/blob/main/templates/.github/assets/web%20feature.png" width='100%' height='100%'/>
