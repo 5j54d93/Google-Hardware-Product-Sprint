@@ -1,10 +1,10 @@
 # Google Hardware Product Sprint－2021 APAC TW HPS
 
-[![CodeQL](https://github.com/5j54d93/Google-HPS/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/5j54d93/Google-HPS/actions/workflows/codeql-analysis.yml)
+[![CodeQL](https://github.com/5j54d93/Google-Hardware-Product-Sprint/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/5j54d93/Google-Hardware-Product-Sprint/actions/workflows/codeql-analysis.yml)
 ![GitHub contributors](https://img.shields.io/github/contributors/darrenyaoyao/GoogleHPS)
-![GitHub](https://img.shields.io/github/license/5j54d93/Google-HPS)
-![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Google-HPS)
-![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Google-HPS)
+![GitHub](https://img.shields.io/github/license/5j54d93/Google-Hardware-Product-Sprint)
+![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/Google-Hardware-Product-Sprint)
+![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Google-Hardware-Product-Sprint)
 
 Using Raspberry Pi 3 Model B+ to help us auto watering plants, and if there are birds aproaching, buzzer will noise to scare them away！We also have a dashboard（web）to view all related data which could auto switching between Day theme and Nithgt theme！And you could also remote control Raspberry Pi to watering or noising by clicking the button on website if you want！
 
